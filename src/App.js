@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Accord from './Component/Accord'
-import Nav_ from './Component/Nav';
+import Nav_ from './Component/Nav_';
 
 
 
