@@ -1,14 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from './Pages/Home';
+import Accord from './Component/Accord'
+import Nav_ from './Component/Nav';
+
+
 
 
 
 function App() {
   return (
+    
     <div className="App">
-     
-    <Home/>    
+      <Nav_/>
+       <br/>
+     <h1>Bootstrap Tutorial</h1>
+    
+    <Accord/>
+    
     </div>
   );
 }
