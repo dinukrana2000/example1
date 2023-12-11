@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import {Button} from 'react-bootstrap';
+import Navig_bar from '../Component/Navig_bar';
 
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
   
   return (
     <div>
+      <Navig_bar/>
       <h1>Home page</h1>
       <Link to="/about">About</Link><br/>
      
