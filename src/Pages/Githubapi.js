@@ -8,7 +8,7 @@ function Githubapi({login}) {
         .then(setData)
         .catch(console.error);
 
-    },[]);
+    },[console.log("success")]);
 
     if(data){
 
